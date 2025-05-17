@@ -1,4 +1,8 @@
+
+<img src="https://u301.com/app.svg" style="width: 40px; height: 40px;" />
+
 # U301 URL Shortener MCP Server
+
 Use MCP Server to create short URLs.
 
 ## Supported Params
@@ -41,3 +45,7 @@ Now you can tell AI (cursor, windsurf)
 
 ## License
 The MIT License
+
+<img src="https://u301.com/u301-logo-v3.svg" style="width: 120px; height: 120px;" />
+
+Official Website: [https://u301.com](https://u301.com)
