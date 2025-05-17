@@ -8,6 +8,9 @@
   "files": [
     "build"
   ],
+  "bin": {
+    "u301-mcp": "dist/index.js"
+  },
   "type": "module",
   "keywords": [],
   "author": "",
