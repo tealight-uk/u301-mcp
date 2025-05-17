@@ -21,7 +21,7 @@ Use MCP Server to create short URLs.
 ```json
 {
   "mcpServers": {
-    "edgeone-pages-mcp-server": {
+    "u301-url-shortener": {
       "command": "npx",
       "args": [
         "-y",
