@@ -13,7 +13,7 @@
     "build"
   ],
   "bin": {
-    "u301-mcp": "build/index.js"
+    "u301-mcp": "./build/index.js"
   },
   "type": "module",
   "keywords": [],
