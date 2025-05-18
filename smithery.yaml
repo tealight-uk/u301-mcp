@@ -1,0 +1,29 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'node', args: ['build/index.js'], env: { U301_API_KEY: config.apiKey, DOMAIN: config.domain || undefined, WORKSPACE_ID: config.workspaceId || undefined } })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - apiKey
+    properties:
+      apiKey:
+        type: string
+        description: U301 API key
+      domain:
+        type: string
+        default: ""
+        description: Custom short URL domain
+      workspaceId:
+        type: string
+        default: ""
+        description: Workspace ID
+  exampleConfig:
+    apiKey: your-u301-api-key
+    domain: short.example.com
+    workspaceId: workspace-1234
