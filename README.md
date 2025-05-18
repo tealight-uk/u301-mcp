@@ -1,7 +1,8 @@
-
 <img src="https://u301.com/app.svg" style="width: 40px; height: 40px;" />
 
 # U301 URL Shortener MCP Server
+
+[![smithery badge](https://smithery.ai/badge/@tealight-uk/u301-mcp)](https://smithery.ai/server/@tealight-uk/u301-mcp)
 
 Use MCP Server to create short URLs.
 
@@ -42,6 +43,14 @@ Use MCP Server to create short URLs.
 Now you can tell AI (cursor, windsurf)
 
 > Replace the long URLs in the comments of this file with meaningful and memorable short URLs.
+
+### Installing via Smithery
+
+To install u301-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@tealight-uk/u301-mcp):
+
+```bash
+npx -y @smithery/cli install @tealight-uk/u301-mcp --client claude
+```
 
 ## License
 The MIT License
