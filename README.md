@@ -5,6 +5,8 @@
 
 Use MCP Server to create short URLs.
 
+<img width="380" height="200" src="https://glama.ai/mcp/servers/@tealight-uk/u301-mcp/badge" alt="U301 URL Shortener MCP Server" />
+
 ## Supported Params
 * `url` - The URL to shorten
 * `slug` - (optional) The slug of the URL
