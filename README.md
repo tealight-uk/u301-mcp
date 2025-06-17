@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/tealight-uk-u301-mcp-badge.png)](https://mseep.ai/app/tealight-uk-u301-mcp)
+
 
 <img src="https://u301.com/app.svg" style="width: 40px; height: 40px;" />
 
