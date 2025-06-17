@@ -3,7 +3,7 @@
 
 # U301 URL Shortener MCP Server
 
-[![Verified on MseeP](https://mseep.ai/badge.svg)](https://mseep.ai/app/tealight-uk-u301-mcp)
+[![Verified on MseeP](https://mseep.ai/badge.svg)](https://mseep.ai/app/de61379b-1f01-4f6f-8690-8456ec0e0d9b)
 
 Use MCP Server to create short URLs.
 
