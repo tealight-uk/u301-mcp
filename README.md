@@ -12,21 +12,21 @@ Use MCP Server to create short URLs.
 ## Supported Params
 * `url` - The URL to shorten
 * `slug` - (optional) The slug of the URL
-* `expires` - (optional) The time in seconds until the URL expires
+* `expiredAt` - (optional) The expiration date for the URL, for example `2026-03-13T00:00:00Z`
 * `password` - (optional) The password to access the URL
 * `comment` - (optional) The comment to display in Dashboard
 
 ## Environment Variables
-* `API_KEY` - The U301 API key, required for creating short URLs
-* `domain` - (optional) The short URL domain, leave blank for default
-* `workspaceId` - (optional) Which workspace to use, leave blank for default
+* `U301_API_KEY` - The U301 API key, required for creating short URLs
+* `DOMAIN` - (optional) The short URL domain, leave blank for the default domain
+* `WORKSPACE_ID` - (optional) Which workspace to use, leave blank for the default workspace
 
 ## How to use
 - Step 1: Create an API in [U301 Dashboard](https://u301.com)
-- Step 2: (Optional) Add your own domain by connectting to cloudflare
+- Step 2: (Optional) Add your own domain by connecting to Cloudflare
 - Step 3: Add this MCP Server config
 
-```json
+```jsonc
 {
   "mcpServers": {
     "u301-url-shortener": {
@@ -36,8 +36,9 @@ Use MCP Server to create short URLs.
         "@u301/mcp"
       ],
       "env": {
-        "U301_API_KEY": <Your-U301-API-Key>
-        // "domain": <if you have one, or you don't need to config>
+        "U301_API_KEY": "<Your-U301-API-Key>",
+        // "DOMAIN": "<optional-custom-domain>",
+        // "WORKSPACE_ID": "<optional-workspace-id>"
       }
     }
   }
